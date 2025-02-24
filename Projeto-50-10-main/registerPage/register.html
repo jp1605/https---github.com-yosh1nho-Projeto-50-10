@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de Conta</title>
+    <title>Registro de Conta - Clientes</title>
     <link rel="icon" href="\img\icon\Buddha-hand-bro.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="registerStyle.css">
@@ -11,19 +11,47 @@
 </head>
 
 <body>
-    <header>
+    
+    
 
-        <nav>
-            <ul>            
-                <!-- define um item em que dentro dele contem um link que vai nos levar para a pagina inicial e que contem uma imagem -->
-                <li><a href="file:///C:/Users/User/Desktop/%C2%A0/LEIM/2%C2%BAAno/2%C2%BA%20semestre/Projeto%2050_10/Projeto-50-10-main_V1.1/Projeto-50-10-main/index.html"><img src="logo_3.png" alt="logo" class="logo"></a></li>
-                <li><a href="file:///C:/Users/User/Desktop/%C2%A0/LEIM/2%C2%BAAno/2%C2%BA%20semestre/Projeto%2050_10/Projeto-50-10-main_V1.1/Projeto-50-10-main/LoginPage/loginpage.html">Login</a></li>
-            </ul>
-        </nav>
+    <section class="container">
+        
+            <header> Registo</header>
+            <form action="#" class="register-form">
+                <div class="input-box">
+                    <label>Nome:</label>
+                    <input type="text" id="username" name="username" required placeholder="Email ou Nº Sócio">
+                </div> 
 
-    </header>
+                <div class="input-box">
+                    <label>Morada:</label>
+                    <input type="text" placeholder="Escreve o Nome">
+                </div> 
 
-    <h1>Registro</h1>
+                <div class="input-box">
+                    <label>Email:</label>
+                    <input type="text" placeholder="Escreve o Nome">
+                </div> 
+
+                <div class="input-box">
+                    <label>Nº Telemóvel:</label>
+                    <input type="text" placeholder="Escreve o Nome">
+                </div> 
+
+                <div class="input-box">
+                    <label>Password:</label>
+                    <input type="password" placeholder="Escreve o Nome">
+                </div> 
+
+            </form>
+    </section>
+
+
+
+
+
+<!--
+        <h1>Registro</h1>
     <form id="registrationForm" action="submit_registration.php" method="post">
         
         <label for="password">Nome</label>
@@ -41,10 +69,9 @@
         <input type="submit" value="Realizar Registro">
         <p id="error-message" style="color: red;"></p>
     </form>
+-->
 
-
-    <footer>
-        <p>&copy; 2025 IPCA EST</p>
-    </footer>
+   
 </body>
+
 </html>
